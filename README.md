@@ -22,3 +22,8 @@ Files without extensions are placed in a `no_extension` folder.
 
 ```python
 TARGET_FOLDER = r"path/to/your/folder"
+```
+5.To actually move files, set dry_run=False
+```python
+organize_by_extension(TARGET_FOLDER, dry_run=False)
+```
